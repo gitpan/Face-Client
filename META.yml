@@ -1,0 +1,45 @@
+---
+abstract: 'Client to the Face.com REST API'
+author:
+  - 'Arnaud (Arhuman) ASSAD <arhuman@gmail.com>'
+build_requires:
+  JSON: 0
+  REST::Client: 0
+  Test::More: 0
+configure_requires:
+  Module::Build: 0.4
+dynamic_config: 1
+generated_by: 'Arnaud (Arhuman) ASSAD <arhuman@gmail.com>, CPAN::Meta::Converter version 2.110930'
+keywords:
+  - face
+  - recognition
+  - rest
+  - api
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Face-Client
+provides:
+  Face::Client:
+    file: lib/Face/Client.pm
+    version: 0.03
+  Face::Client::Response:
+    file: lib/Face/Client/Response.pm
+    version: 0.03
+  Face::Client::Response::Account:
+    file: lib/Face/Client/Response/Account.pm
+    version: 0.03
+  Face::Client::Response::Photo:
+    file: lib/Face/Client/Response/Photo.pm
+    version: 0.03
+  Face::Client::Response::Tag:
+    file: lib/Face/Client/Response/Tag.pm
+    version: 0.03
+requires:
+  perl: 5.006
+resources:
+  bugtracker: https://github.com/arhuman/Face-Client/issues
+  license: http://dev.perl.org/licenses/
+  repository: https://github.com/arhuman/Face-Client
+version: 0.03
